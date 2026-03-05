@@ -89,8 +89,10 @@ export class MatTableExporterDirective extends CdkTableExporter implements After
 
   private enablePaginator(value: boolean) {
     const paginator: MatPaginator = this.getPaginator();
+    if (paginator) {
       paginator.disabled = !value;
       paginator._changePageSize(paginator.pageSize);
+    }
   }
 
 }
