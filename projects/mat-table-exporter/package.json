@@ -1,6 +1,6 @@
 {
   "name": "mat-table-exporter",
-  "version": "20.0.0",
+  "version": "21.0.0",
   "description": "Provides exporting support for @angular/material tables",
   "author": "Halit Talha Türe",
   "license": "Apache-2.0",
@@ -14,18 +14,18 @@
     "lib-chk-up": "npx ncu -u"
   },
   "peerDependencies": {
-    "@angular/cdk": "^20.0.3",
-    "@angular/common": "^20.0.3",
-    "@angular/core": "^20.0.3",
-    "@angular/material": "^20.0.3"
+    "@angular/cdk": "21.2.0",
+    "@angular/common": "21.2.0",
+    "@angular/core": "21.2.0",
+    "@angular/material": "21.2.0"
   },
   "dependencies": {
-    "cdk-table-exporter": "^20.0.0",
-    "tslib": "^2.8.1"
+    "cdk-table-exporter": "21.0.0",
+    "tslib": "2.8.1"
   },
   "devDependencies": {
-    "typescript": "^5.8.3",
-    "npm-check-updates": "18.0.1"
+    "typescript": "5.9.3",
+    "npm-check-updates": "20.0.0"
   },
   "sideEffects": false,
   "keywords": [

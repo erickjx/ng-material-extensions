@@ -4,6 +4,9 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
+      "rxjs": [
+        "node_modules/rxjs"
+      ],
       "cdk-table-exporter": [
         "dist/cdk-table-exporter"
       ],
@@ -46,7 +49,7 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
